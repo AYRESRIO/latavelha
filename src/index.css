@@ -1,0 +1,35 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+:root {
+  --latavelha-color-bg-primary:  #FFFFFF;
+  --latavelha-color-bg-secondary: #F78B00;
+  --latavelha-color-font-primary: #000000;
+  --latavelha-color-font-secondary: #585858;
+  --latavelha-color-font-tertiary: #00285F;
+  --latavelha-color-font-quaternary:#FFFFFF;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0 ;
+  font-family: "Roboto";
+}
+a,
+a:hover {
+  text-decoration: none;
+  color: unset;
+}
+
+html,
+body {
+  background-color:var( --latavelha-color-bg-primary);
+}
+
+.latavelha-container{
+    width: 100%;
+    max-width: 980px;
+    margin: 0 auto;
+    
+}
