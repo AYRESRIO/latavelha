@@ -5,11 +5,14 @@
 :root {
   --latavelha-color-bg-primary:  #FFFFFF;
   --latavelha-color-bg-secondary: #F78B00;
+  --latavelha-color-bg-tertiary: #00285F;
   --latavelha-color-font-primary: #000000;
   --latavelha-color-font-secondary: #585858;
   --latavelha-color-font-tertiary: #00285F;
-  --latavelha-color-font-quaternary:#FFFFFF;
+  --latavelha-color-font-quaternary: #FFFFFF;
+  --latavelha-color-font-placeholder: #A7A7A7;
 }
+
 * {
   box-sizing: border-box;
   margin: 0;

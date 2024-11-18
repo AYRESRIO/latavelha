@@ -1,0 +1,36 @@
+.latavelha-search-bar{
+    display: flex;
+}
+
+.latavelha-search-bar input{
+    padding: 0 15px;
+    border: 1px solid var(--latavelha-color-font-placeholder);
+    border-right: none;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.latavelha-search-bar input:focus{
+    outline: none;
+}
+
+.latavelha-search-bar input::placeholder{
+    color: var( --latavelha-color-font-placeholder);
+}
+
+.latavelha-form-control{
+    height:40px;
+    width: 100%;
+}
+
+.latavelha-search-bar-submit{
+    background-color: var(--latavelha-color-font-tertiary);
+    color: var(--latavelha-color-font-quaternary);
+    text-transform:uppercase;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 0 11px;
+    border: none;
+}
+
