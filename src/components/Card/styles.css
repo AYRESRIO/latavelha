@@ -1,0 +1,49 @@
+.latavelha-card{
+    background-color: var(--latavelha-color-bg-quaternary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    padding: 15px 20px;
+    
+}
+.latavelha-card img{
+    width: 200px;
+    align-items: center;
+    margin-top: 14px;
+    margin-bottom: 8px;   
+}
+
+.latavelha-card h3{
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--latavelha-color-font-primary);
+    margin-bottom: 4px;
+}
+
+.latavelha-card p{
+    font-size: 14px;
+    font-weight: 400;
+    font-style: italic;
+    color: var(--latavelha-color-font-secondary);
+    margin-bottom: 38px;
+}
+
+@media( max-width:290px){
+    .latavelha-card{
+        width: 150px;
+    }
+
+    .latavelha-card img{
+        width: 100px;
+    }
+    .latavelha-card h3{
+        font-size: 10px;
+    }
+    .latavelha-card p{
+        font-size: 3px;
+        
+        
+    }
+
+}

@@ -1,15 +1,21 @@
 #latavelha-catalog-section{
     padding: 40px 0;
 }
+
 .latavelha-catalog-main{
     padding: 0 10px;
 }
+
 .latavelha-search-bar-container{
     margin-bottom: 40px;
 }
+
 .latavelha-catalog-cards-container{
-    border: 1px solid blue;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill,minmax(258px,1fr));
 }
+
 @media (min-width: 576px){
     .latavelha-catalog-main{
         padding: 0 20px;

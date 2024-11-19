@@ -1,0 +1,23 @@
+.latavelha-button{
+    height: 40px;
+    width: 100%;
+    max-width: 266px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: var(--latavelha-color-bg-tertiary);
+    font-size: 14px;
+    color:var(--latavelha-color-font-quaternary);
+    font-weight: 700;
+
+}
+
+@media( max-width:290px){
+    .latavelha-button{
+        max-width: 100px;
+        font-size: 11px;
+
+    }
+}
